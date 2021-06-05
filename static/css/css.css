@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.page-header{
+    padding: 15px 0;
+    margin: 60px; 
+    background: url(../bg-page-header.png) no-repeat center center;
+    background-size: cover; 
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+.whitebg h1{
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 42px;
+    color: #2c3c69;
+    margin-top: 2px;
+    font-family: "Lucida Handwriting", "Cursive";
+}
+
+h1 {
+    line-height: 50px;
+}
+
+
+
+.whitebg{
+    background-color: rgba(254,254,254,.7);
+    border: 1px solid rgba(254,254,254,.85);
+    border-radius: 10px;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h3 {
+    margin-bottom: 18px;
+    font-size: 18px;
+    line-height: 1px;
+    font-weight: 300;
+}
+strong {
+    font-weight: bold;
+    vertical-align: baseline;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.column img{
+	height: 125px;
+	width: 125px;
+}
+
+.color-shade-1 h3{
+	color: #063664 !important;
+}
+
+
+.color-shade-2 h3{
+	color: #063664 !important;
+}
+
+
+.color-shade-3 h3{
+	color: #037456 !important;
+}
+
+
+.color-shade-4 h3{
+	color: #03a888 !important;
+}
+
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+    .whitebg{
+    	margin: 0 15px;
+    }
+  }
